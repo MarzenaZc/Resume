@@ -171,6 +171,11 @@ a:hover {text-decoration: underline}
    font-weight: bold;
    font-size: 20px;
  }
+footer {
+ padding: 1em;
+ text-align: center;
+ 
+}
 @media only screen and (max-width: 768px){
   .course, .work{
     display: block;
@@ -190,9 +195,5 @@ a:hover {text-decoration: underline}
   footer {
     text-align: center;
   }
-	}
-footer {
- padding: 1em;
- text-align: center;
- 
+}
 }
