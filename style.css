@@ -171,6 +171,25 @@ a:hover {text-decoration: underline}
    font-weight: bold;
    font-size: 20px;
  }
+@media only screen and (max-width: 768px){
+  .course, .work{
+    display: block;
+  }
+  .course .title, .course.description{
+    max-width: 100%;
+  }
+  @media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
 
 footer {
  padding: 1em;
